@@ -1,0 +1,158 @@
+body{
+	margin:0px;
+	padding:0px;
+	vertical-align: baseline;
+   
+}
+/*=================
+	micro clearfix
+==================*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+header{
+    height:140px;
+    width: 100%;
+    background: #a50000;
+    position: fixed;
+    top:0;
+    z-index: 0;	
+}
+.logo img{
+	width:10%;
+	float:left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+
+
+.search_bar input[type=text]{
+	margin-top:20px;
+	margin-left: 350px;
+	margin-right: 20px;
+	border: none;
+	border-radius: 5px;
+	height: 25px;
+	width: 300px;
+	font-size: 16px;
+	
+	
+	
+}
+.content{
+	margin: 50px;
+	text-align: center;
+
+}
+.content a{
+	color:white;
+	text-decoration: none;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	margin-right: 50px;
+}
+
+ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	list-style: none;
+	
+}
+.content a:hover{
+      background:white;
+      color:#a50000;
+}
+.content a:active{
+	background:pink;
+	color:#a50000;
+}
+/*header is over*/
+
+.viewport img{
+	width:100%;
+	margin-top: 140px;
+}
+/*viewport is over*/
+
+.festival{
+	height:4700px;
+	background:rgb(185, 14, 14);
+
+}
+.festival img{
+	margin:30px;
+	width:20%;	
+}
+
+/*festival-lists start*/
+.row{
+	margin-left: 120px;
+}
+.col-sm-8{
+	width:400px;
+	float:left;
+	margin-right: 50px;
+}
+
+.row img{
+	width:45%;
+}
+figure img{
+	float:left;
+}
+figure h3{
+	padding-top:20px;
+	color:white;
+
+}
+
+figure h4{
+	color:white;
+}
+figure h5{
+	color:white;
+}
+figure p{
+	color:pink;
+
+}
+figure a{
+	color: rgb(247,236,65);
+	
+	
+}
+footer{
+	height:200px;
+	background: #a50000;
+}
+ul img{
+	width:30%;
+	margin-top:50px;
+}
+
+footer p{
+	color:white;
+	text-align: center;
+	margin-top: 70px;
+}

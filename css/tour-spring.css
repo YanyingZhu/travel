@@ -1,0 +1,139 @@
+body{
+	margin:0px;
+	padding:0px;
+	vertical-align: baseline;
+   
+}
+/*=================
+	micro clearfix
+==================*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+header{
+    height:140px;
+    width: 100%;
+    background: #a50000;
+    position: fixed;
+    top:0;
+    z-index: 0;	
+}
+.logo img{
+	width:10%;
+	float:left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+
+
+.search_bar input[type=text]{
+	margin-top:20px;
+	margin-left: 350px;
+	margin-right: 20px;
+	border: none;
+	border-radius: 5px;
+	height: 25px;
+	width: 300px;
+	font-size: 16px;
+	
+	
+	
+}
+.content{
+	margin: 50px;
+	text-align: center;
+
+}
+.content a{
+	color:white;
+	text-decoration: none;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	margin-right: 50px;
+}
+
+ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	list-style: none;
+	
+}
+.content a:hover{
+      background:white;
+      color:#a50000;
+}
+.content a:active{
+	background:pink;
+	color:#a50000;
+}
+/*header is over*/
+
+.viewport img{
+	width:100%;
+	margin-top: 140px;
+}
+
+/*viewport is over*/
+h2,h3,h4{
+	margin-left:50px;
+	margin-top:50px;
+}
+.monkey img{
+	width:20%;
+	margin-left: 100px;
+}
+.drama img{
+	width:20%;
+	margin-left:50px;
+}
+.meal img{
+	width:20%;
+	margin-left:50px;
+}
+.temple img{
+	width:20%;
+	margin-left:50px;
+}
+p{
+	margin-left:50px;
+	margin-top:50px;
+	width:1200px;
+}
+footer{
+	height:200px;
+	background: #a50000;
+}
+ul img{
+	width:30%;
+	margin-top:50px;
+}
+
+footer p{
+	color:white;
+	text-align: center;
+	margin-top: 70px;
+}
+
+
+

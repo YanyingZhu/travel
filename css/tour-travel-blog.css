@@ -1,0 +1,206 @@
+body{
+	margin:0px;
+	padding:0px;
+	vertical-align: baseline;
+   
+}
+/*=================
+	micro clearfix
+==================*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+header{
+    height:140px;
+    width: 100%;
+    background: #a50000;
+    position: fixed;
+    top:0;
+    z-index: 0;	
+}
+.logo img{
+	width:10%;
+	float:left;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+
+
+.search_bar input[type=text]{
+	margin-top:20px;
+	margin-left: 350px;
+	margin-right: 20px;
+	border: none;
+	border-radius: 5px;
+	height: 25px;
+	width: 300px;
+	font-size: 16px;
+	
+	
+	
+}
+.content{
+	margin: 50px;
+	text-align: center;
+
+}
+.content a{
+	color:white;
+	text-decoration: none;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	margin-right: 50px;
+}
+
+ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	list-style: none;
+	
+}
+.content a:hover{
+      background:white;
+      color:#a50000;
+}
+.content a:active{
+	background:pink;
+	color:#a50000;
+}
+/*header is over*/
+
+.viewport img{
+	width:100%;
+	margin-top: 140px;
+}
+/*viewport is over*/
+.dropdown{
+	height:200px;
+}
+.dropdown h3{
+      text-align: center;
+      margin-top: 50px;
+      background: #73A726;
+      padding:15px;
+}
+.dropdown-content-1{
+	margin-top: 50px;
+	margin-left: 100px;
+	width:900px
+	text-align:center;
+
+}
+.dropdown-content-1 a{
+	padding-left: 100px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color:#73A726;
+	}
+.dropdown-content-1 a:hover{
+	color:#5A8023;
+}
+.dropdown-content-2 a:hover{
+	color:#5A8023;
+}
+.dropdown-content-2 a{
+	padding-left: 90px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color:#73A726;
+	}
+.dropdown-content-2{
+	margin-top: 20px;
+	margin-left:100px;
+	width:900px
+	text-align:center;
+}
+.list{
+	height:700px;
+}
+.article{
+	margin:30px;
+	
+	background:#6AAB09; 
+}
+.article h2{
+	padding:10px;
+	text-align: center;
+	color:#ffffff;
+}
+.sub_article-1{
+	width:300px;
+	margin-left: 100px;
+	float:left;
+}
+.sub_article-1 img{
+	width:80%;
+}
+.sub_article-1 a{
+	text-decoration:none;
+
+}
+.sub_article-1 h3{
+	color:#0FB8DE;
+	
+}
+.sub_article-1 h3:hover{
+	color:#0FCBF5;
+	
+}
+.sub_article-1 p{
+	color:black;
+	
+}
+.more a{
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left:40px;
+	padding-right:40px;
+	background:#73A726;
+	border-radius: 5px;
+	color:white; 
+	text-decoration: none;
+
+}
+.more a:hover{
+	background: #8FD626;
+	
+}
+.more{
+	text-align: center;
+	height:50px;
+}
+footer{
+	height:200px;
+	background: #a50000;
+}
+ul img{
+	width:30%;
+	margin-top:50px;
+}
+
+footer p{
+	color:white;
+	text-align: center;
+	margin-top: 70px;
+}
